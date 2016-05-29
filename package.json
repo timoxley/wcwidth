@@ -6,6 +6,10 @@
   "contributors": [
     "Woong Jun <woong.jun@gmail.com> (http://code.woong.org/)"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/timoxley/wcwidth.git"
+  },
   "main": "index.js",
   "dependencies": {
     "defaults": "^1.0.0"
