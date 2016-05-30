@@ -8,10 +8,10 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "defaults": "^1.0.0"
+    "defaults": "^1.0.3"
   },
   "devDependencies": {
-    "tape": "^2.13.4"
+    "tape": "^4.5.1"
   },
   "license": "MIT",
   "keywords": [
