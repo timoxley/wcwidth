@@ -30,5 +30,13 @@
   },
   "scripts": {
     "test": "tape test/*.js"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timoxley/wcwidth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timoxley/wcwidth/issues"
+  },
+  "homepage": "https://github.com/timoxley/wcwidth#readme"
 }
