@@ -6,10 +6,10 @@
   "contributors": [
     "Woong Jun <woong.jun@gmail.com> (http://code.woong.org/)"
   ],
-  "main": "index.js",
-  "dependencies": {
-    "defaults": "^1.0.3"
+  "engines": {
+    "node": ">=4"
   },
+  "main": "index.js",
   "devDependencies": {
     "tape": "^4.5.1"
   },
