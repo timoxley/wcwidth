@@ -1,6 +1,5 @@
 "use strict"
 
-var defaults = require('defaults')
 var combining = require('./combining')
 
 var DEFAULTS = {
@@ -13,7 +12,7 @@ module.exports = function wcwidth(str) {
 }
 
 module.exports.config = function(opts) {
-  opts = defaults(opts || {}, DEFAULTS)
+  opts = Object.assign({}, DEFAULTS, opts)
   return function wcwidth(str) {
     return wcswidth(str, opts)
   }
